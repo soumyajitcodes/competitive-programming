@@ -1,3 +1,5 @@
+"""Symmetric difference"""
+
 if __name__ == "__main__":
     M = int(input())
     MSet = set(int(i) for i in input().split()[:M])

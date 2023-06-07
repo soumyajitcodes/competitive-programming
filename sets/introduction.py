@@ -1,4 +1,6 @@
+"""Introduction Set"""
 def average(array):
+    """Avg of Array"""
     # your code goes here
     setArray = set(array)
 

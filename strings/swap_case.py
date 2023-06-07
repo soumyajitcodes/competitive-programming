@@ -1,4 +1,7 @@
+"""swap case"""
+
 def swap_case(s):
+    """swap case"""
     return s.swapcase()
 
 

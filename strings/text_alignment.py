@@ -1,3 +1,5 @@
+"""text_alignment"""
+
 if __name__ == '__main__':
     thickness = int(input())
     character = "H"

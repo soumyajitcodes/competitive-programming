@@ -1,4 +1,7 @@
+"""No Idea"""
+
 def happiness(num_arr, A, B):
+    """Happiness"""
     happiness = 0
     for i in num_arr:
         if i in A:

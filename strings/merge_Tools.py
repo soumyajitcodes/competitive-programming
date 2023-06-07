@@ -1,5 +1,8 @@
+"""merge_Tools"""
+
 def merge_the_tools(string, k):
     # your code goes here
+    """merge_Tools"""
     for i in range(int(len(string) / k)):
         l = []
         for j in range(k):

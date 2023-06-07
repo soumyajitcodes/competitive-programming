@@ -1,4 +1,7 @@
+"""Alphabet Rangoli"""
+
 def print_rangoli(size):
+    """Alphabet Rangoli"""
     # your code goes here
     for i in range(size):
         s = "-".join(chr(ord('a') + size - j - 1) for j in range(i + 1))

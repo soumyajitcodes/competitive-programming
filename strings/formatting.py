@@ -1,4 +1,7 @@
+"""string_formatting"""
+
 def print_formatted(number):
+    """string_formatting"""
     a_width = len(bin(number)[2:])
     for i in range(1,number+1):
         dec = str(i)

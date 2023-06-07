@@ -1,5 +1,8 @@
+"""minion_game"""
+
 def minion_game(string):
     # your code goes here
+    """minion_game"""
     vowels = set('AEIOU')
     Stuart_Score = Kevin_Score = 0
     for i, s in enumerate(string):
