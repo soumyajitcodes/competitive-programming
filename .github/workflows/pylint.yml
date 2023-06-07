@@ -2,6 +2,10 @@ name: Pylint
 
 on: [push]
 
+parameters:
+  pylintrc:
+    max-line-length=120
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,8 +13,6 @@ jobs:
       matrix:
         python-version: ["3.8", "3.9", "3.10"]
 
-    pylintrc:
-      max-line-length=120
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
