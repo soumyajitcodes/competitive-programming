@@ -1,3 +1,5 @@
+"""HackerRank List Comprehensions"""
+
 if __name__ == '__main__':
     X = int(input())
     Y = int(input())
