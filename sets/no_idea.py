@@ -1,5 +1,6 @@
 """No Idea"""
 
+
 def happiness(num_arr, A, B):
     """Happiness"""
     happiness = 0
@@ -11,6 +12,7 @@ def happiness(num_arr, A, B):
         else:
             happiness += 0
     return happiness
+
 
 if __name__ == "__main__":
     n, m = map(int, input().split())
